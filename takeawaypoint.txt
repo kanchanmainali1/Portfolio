@@ -1,0 +1,13 @@
+What I Do
+🎨 UI/UX Design
+Creating intuitive and visually appealing user interfaces
+Wireframing, prototyping, and designing for responsiveness
+Tools: Figma, Adobe XD, Photoshop, Illustrator
+💻 Development
+Full-stack web development with modern technologies
+Backend logic and API development with Node.js & Express
+Database management with PostgreSQL
+Frontend development with React, HTML, CSS, and JavaScript
+🏡 Real Estate Web App (Current Project)
+Building a house recommendation system based on user searches
+Implementing an optimized backend with Node.js & PostgreSQL
