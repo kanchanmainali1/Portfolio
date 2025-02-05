@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "E-Commerce Platform (On Going)",
-    icon: <FaShoppingCart className="text-green-500 text-4xl" />,
+    icon: <FaShoppingCart className="text-blue-500 text-4xl" />,
     description: "A full-fledged e-commerce site with secure payments and user authentication.",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     features: [
