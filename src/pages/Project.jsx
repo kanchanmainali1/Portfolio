@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHouseUser, FaShoppingCart, FaRocket, FaTools, FaListUl } from "react-icons/fa";
+import { FaHouseUser, FaShoppingCart, FaRocket, FaTools, FaListUl, FaGithub, FaLink } from "react-icons/fa";
 
 const projects = [
   {
@@ -67,6 +67,17 @@ const Projects = () => {
             </ul>
           </div>
         ))}
+      </div>
+
+      {/* Add the "Want to see more?" section */}
+      <div className="mt-16 text-center">
+        <p className="text-lg text-gray-600 mb-4">Want to see more? Check out my GitHub  for more projects!</p>
+        <div className="flex justify-center gap-6">
+          <a href="https://github.com/kanchanmainali1" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600">
+            <FaGithub className="text-3xl" />
+          </a>
+          
+        </div>
       </div>
     </div>
   );
