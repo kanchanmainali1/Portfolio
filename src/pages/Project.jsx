@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Real Estate Web App",
     icon: <FaHouseUser className="text-blue-500 text-4xl" />,
-    description: "A smart house recommendation system based on user searches and preferences.",
+    description: "A Real Estate website for buying,selling and renting properties",
     techStack: ["Node.js", "Express", "PostgreSQL", "React", "SCSS"],
     features: [
       "Advanced search and filtering for properties",
