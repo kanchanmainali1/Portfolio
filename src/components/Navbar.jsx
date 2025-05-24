@@ -1,16 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+const navItems = [
+  { name: "Home", id: "home" },
+  { name: "About", id: "about" },
+  { name: "Skills", id: "skills" },
+  { name: "Projects", id: "projects" },
+  { name: "Contact", id: "contact" },
+];
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 shadow-sm bg-white ">
+    <nav className="flex justify-between items-center p-4 shadow-sm bg-white fixed top-0 w-full z-50">
       <h1 className="text-2xl font-bold px-16">Portfolio</h1>
       <ul className="flex space-x-6 text-lg px-20">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/skills">Skills</Link></li>
-       <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        {navItems.map((item) => (
+          <li key={item.id}>
+            <a
+              href={`#${item.id}`}
+              className="text-gray-700 hover:text-blue-600 transition duration-300"
+            >
+              {item.name}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );

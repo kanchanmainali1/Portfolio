@@ -18,7 +18,7 @@ const Home = () => {
         <h1 className="text-4xl font-bold mb-2 flex items-center gap-2">
           <PiHandWavingBold className="text-yellow-400" /> Hi, I’m <span>Kanchan Mainali</span>
         </h1>
-        <h2 className="text-xl text-gray-600 font-bold">Developer + Designer</h2>
+        <h2 className="text-xl text-gray-600 font-bold"> Full Stack Web Developer</h2>
         <p className="text-gray-500 mt-4">
           I specialize in creating visually appealing, user-friendly web
           applications.
